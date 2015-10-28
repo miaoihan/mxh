@@ -1,0 +1,88 @@
+
+/* 圆角 */
+.preview-botton{
+  line-height:25px;
+  height:25px;
+  width:100px;
+  color:#777777;
+  background-color:#ededed;
+  font-size:13px;
+  font-weight:normal;
+  font-family:Arial;
+  background:-webkit-gradient(linear, left top, left bottom, color-start(0.05, #ededed), color-stop(1, #f5f5f5));
+  background:-moz-linear-gradient(top, #ededed 5%, #f5f5f5 100%);
+  background:-o-linear-gradient(top, #ededed 5%, #f5f5f5 100%);
+  background:-ms-linear-gradient(top, #ededed 5%, #f5f5f5 100%);
+  background:linear-gradient(to bottom, #ededed 5%, #f5f5f5 100%);
+  background:-webkit-linear-gradient(top, #ededed 5%, #f5f5f5 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#f5f5f5',GradientType=0);
+  border:1px solid #dbd0d0;
+  -webkit-border-top-left-radius:30px;
+  -moz-border-radius-topleft:30px;
+  border-top-left-radius:30px;
+  -webkit-border-top-right-radius:30px;
+  -moz-border-radius-topright:30px;
+  border-top-right-radius:30px;
+  -webkit-border-bottom-left-radius:30px;
+  -moz-border-radius-bottomleft:30px;
+  border-bottom-left-radius:30px;
+  -webkit-border-bottom-right-radius:30px;
+  -moz-border-radius-bottomright:30px;
+  border-bottom-right-radius:30px;
+  -moz-box-shadow: inset 0px 0px 0px 0px #ffffff;
+  -webkit-box-shadow: inset 0px 0px 0px 0px #ffffff;
+  box-shadow: inset 0px 0px 0px 0px #ffffff;
+  text-align:center;
+  display:inline-block;
+  text-decoration:none;
+}
+.preview-botton:hover{
+  background-color:#f5f5f5;
+  background:-webkit-gradient(linear, left top, left bottom, color-start(0.05, #f5f5f5), color-stop(1, #ededed));
+  background:-moz-linear-gradient(top, #f5f5f5 5%, #ededed 100%);
+  background:-o-linear-gradient(top, #f5f5f5 5%, #ededed 100%);
+  background:-ms-linear-gradient(top, #f5f5f5 5%, #ededed 100%);
+  background:linear-gradient(to bottom, #f5f5f5 5%, #ededed 100%);
+  background:-webkit-linear-gradient(top, #f5f5f5 5%, #ededed 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#ededed',GradientType=0);
+}
+
+
+/* 轮播 */
+#info_2 .tabs { overflow:hidden;  list-style:none; width:820px;border-bottom:1px solid #005AAC;padding-top:10px;padding-left:10px;margin-left:10px;}
+#info_2 .tabs li { margin-left:5px;background:#fff;border:1px solid #ccc; width:90px; text-align:center; float:left;height:30px;line-height:30px;margin-top:8px;}
+#info_2 .tabs li.active { background:#005AAC;font-weight:bold;color:White;border:1px solid #005AAC; height:31px; width:80px;}
+
+#info_2 .dairyPopular { width:720px;margin-left:10px;}
+#info_2 .weeklyPopular { display:none;width:720px;margin-left:10px;}
+#info_2 .exhibitionnews { display:none;width:720px;margin-left:10px;}
+#info_2 .guidenews{ display:none;width:720px;margin-left:10px;}
+
+
+
+
+#info_2 .list .pic{ list-style:none; width:450px;height:120px;}
+#info_2 .list .pic li{width:450px;height:80px;}
+#info_2 .list .pic li img{width:100px;height:80px;border:1px solid #efefef;float:left;}
+#info_2 .list .pic li h3{width:330px;float:left;font-size:16px;margin-left:5px; font-weight:normal;}
+#info_2 .list .pic li small{width:210px;line-height:180%;margin-left:5px;font-size:12px;color:#999;padding-left:5px; font-style:normal;}
+#info_2 .list .pic li small a{color:#999;}
+#info_2 .list .pic li small em{color:#FF7000; font-style:normal;}
+
+#info_2 .list li{float:left;width:350px;background:#fff; margin:10px 0px  0px 0px; padding-left:10px; } 
+#info_2 .list li span.class{font-size:12px;}
+#info_2 .list li span.class a{color:#005AAC;}
+#info_2 .list li span.titles{font-size:12px;}
+#info_2 .list  span{border:0; float:left;}
+#info_2 .list  span img{width:175px;height:60px;border:1px solid #efefef;}
+#info_2 .list  strong{ float:left;width:200px;padding-left:5px;width:175px;font-size:12px;}
+#info_2 .list  small{ float:left;width:200px;font-size:12px;color:#999;line-height:140%;padding-top:5px;}
+#info_2 .list  small em{color:#000; font-style:normal;float:left;}
+
+#info_2 .list .pic2{ list-style:none; width:450px;height:120px;}
+#info_2 .list .pic2 li{width:450px;height:50px;}
+#info_2 .list .pic2 li img{width:30px;height:30px;border:1px solid #efefef;float:left;}
+#info_2 .list .pic2 li h3{width:330px;float:left;font-size:16px;margin-left:5px; font-weight:normal;}
+#info_2 .list .pic2 li small{width:210px;line-height:180%;margin-left:5px;font-size:12px;color:#999;padding-left:5px; font-style:normal;}
+#info_2 .list .pic2 li small a{color:#999;}
+#info_2 .list .pic2 li small em{color:#FF7000; font-style:normal;}

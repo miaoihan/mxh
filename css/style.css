@@ -1,0 +1,125 @@
+
+/* 通用样式 */
+
+
+/* TOP */
+.top{
+    position:relative; 
+    z-index:99999;
+    width:0 auto;   
+    height:50px; 
+    background:rgb(248,248,248);
+}
+.top a{
+    position:absolute;
+    left:18%;
+    top:8px;
+}
+.top span{
+    position:absolute;
+    right:35%;
+    top:14px;
+}
+.top p{
+    position:absolute;
+    font-size:14px;
+    right:28%;
+    top:14px;
+}
+.yuanjiao{
+    position:absolute;
+    top: 7px;
+    right:16%;
+    padding:10px; 
+    width:150px; 
+    height:8px;
+    border: 2px solid gray;
+    -moz-border-radius: 15px; 
+    -webkit-border-radius: 15px; 
+    border-radius:15px;           
+}
+.fdj{
+    position:absolute;
+    right:14.5%;
+    top:14px;
+}
+
+    
+.Clear{
+    clear:both;
+}
+
+/* 内容布局 */
+.container{
+   width:64%;
+   margin:0 auto;/*设置整个容器在浏览器中水平居中*/
+}
+
+.content-left{
+    width: 50%;
+    float: left;
+}
+.content-right{
+    width: 47%;
+    float: right;
+}
+
+.ocntent-right-lunbo{
+    height: 300px;
+}
+
+.content-left-articles{
+ /*   padding-top: 20px; */
+
+}
+
+.content-left-article{
+    padding-top: 23px;
+    padding-bottom: 5px;
+}
+.content-left-article-p{
+    font-size: 8px;
+    line-height:20px;
+}
+
+.content-left-preview{
+    margin-top: 35px;
+}
+
+#middle-logo{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.bottom-left-preview{
+    margin-bottom: 22px;
+    width: 47%;
+    float: left;
+}
+
+.bottom-right-preview{
+    margin-bottom: 22px;    
+    width: 47%;
+    float: right;
+}
+
+.bottom-label{
+    margin-bottom: 15px;
+}
+
+.label-span1{
+    margin-right: 8px;
+    color: blue;
+    font-weight: bolder;
+}
+
+.label-span2{
+    margin-right: 8px;
+    color: red;
+    font-weight: bolder;
+}
+
+.bottom-left-preview-botton{
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
