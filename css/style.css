@@ -1,47 +1,63 @@
 
 /* 通用样式 */
+.test{
+    width:83%;
+    margin:0 auto;
+    padding-bottom: 15px;
+}
+.test ul{list-style:none;}
+.test li{float:left;padding-left: 5px;font-size: 16px;}
+.test li a{ 
+    text-decoration:none;
+    color: black;
+
+}
 
 
-/* TOP */
-.top{
-    position:relative; 
-    z-index:99999;
-    width:0 auto;   
-    height:50px; 
+#head-hr{
+    background-color: red;
+    height: 2px;
+}
+
+#bottom-hr{
+    display: block;
+}
+#bottom-line{
+    margin-left: 9.5%;
+    margin-right: 9.5%;
+    }
+
+/* 导航栏 */
+.head{
+    width:80%;
+    margin:auto;
+    padding-top: 30px;
+    overflow: hidden;
     background:rgb(248,248,248);
 }
-.top a{
-    position:absolute;
-    left:18%;
-    top:8px;
+.logo{
+    float: left;
 }
-.top span{
-    position:absolute;
-    right:35%;
-    top:14px;
+.right{
+    float: right;
 }
-.top p{
-    position:absolute;
-    font-size:14px;
-    right:28%;
-    top:14px;
+.right img{
+    float: left;
 }
-.yuanjiao{
-    position:absolute;
-    top: 7px;
-    right:16%;
-    padding:10px; 
-    width:150px; 
-    height:8px;
-    border: 2px solid gray;
-    -moz-border-radius: 15px; 
-    -webkit-border-radius: 15px; 
-    border-radius:15px;           
+.right input{
+    float: left;
+    width: 228px;
+    height: 27px;
+    border: none;
+    border-top: 1px solid #888888;
+    border-bottom: 1px solid #888888;
 }
-.fdj{
-    position:absolute;
-    right:14.5%;
-    top:14px;
+.right span{
+    float: left;
+    font-size: 14px;
+    margin: 0 12px;
+    color: #555555;
+
 }
 
     
@@ -49,9 +65,9 @@
     clear:both;
 }
 
-/* 内容布局 */
+/* 首页布局 */
 .container{
-   width:64%;
+   width:80%;
    margin:0 auto;/*设置整个容器在浏览器中水平居中*/
 }
 
@@ -70,14 +86,13 @@
 
 .content-left-articles{
  /*   padding-top: 20px; */
-
 }
 
-.content-left-article{
+.content-left-title{
     padding-top: 23px;
     padding-bottom: 5px;
 }
-.content-left-article-p{
+.content-left-title-p{
     font-size: 8px;
     line-height:20px;
 }
@@ -122,4 +137,152 @@
 .bottom-left-preview-botton{
     margin-top: 15px;
     margin-bottom: 8px;
+}
+
+
+
+/*   展示页布局   */
+
+.show-left{
+    float: left;
+    width: 66%;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+
+}
+
+.show-left-pic{
+    margin-bottom: 30px;
+
+}
+
+#show-left-pic a img{
+    width: 100%;
+    height:  100%;
+}
+
+.show-left1{
+    float: left;
+    width: 50%;
+    padding-right: 10px;
+}
+
+.show-left-article{
+    margin-bottom: 20px;
+}
+
+.show-left-article h4{
+    color: red;
+    font-weight: 200;
+    margin-bottom: 8px;
+}
+
+.show-left-article p{
+    font-size: 12px;
+}
+
+.show-left2{
+    width: 50%;
+    padding-right: 10px;
+}
+
+.content-left-preview h4{
+    color: red;
+    font-weight: 200;
+}
+
+.show-left3{
+    float: right;
+    width: 46%;
+}
+
+.show-left3-pic img{
+    margin-bottom: 20px;
+    width: 100%;
+    height:  100%;
+}
+
+.show-right{
+    padding-top: 10px;
+    float: right;
+    width: 29%;
+}
+
+.show-right1{
+
+}
+
+.show-right2{
+    margin-top: 28px;
+    height: 270px;
+}
+
+.show-right3{
+    padding-top: 12px;
+}
+
+.title-span1{
+    width: 50px;
+    margin-right: 25px;
+}
+
+.title-span2{
+    width: 50px;
+    margin-left: 25px;
+}
+.show-right1 p{
+    display: inline;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.right1-title{
+    margin-bottom: 15px;
+}
+
+.right1-pic{
+    height: 150px;
+}
+
+.right1-pic img{
+    height: 100%;
+    width:  100%;
+}
+
+.show-right2 img{
+    height: 100%;
+    width:  100%;
+}
+
+.right1-article{
+    margin-top: 20px;
+}
+
+.right1-article .show-left-article p{
+    font-size: 12px;
+}
+
+.show-right3 a{
+    text-align:  center;
+}
+
+.right3-list{
+    margin-top: 7px;
+    margin-right: 5px;
+    margin-right: 5px;
+}
+
+.list-line{
+    margin-bottom: 3px;
+}
+
+.right3-list-article{
+    float: left;
+    width: 48%;
+}
+
+.right3-list-pic{
+    float: right;
+    width: 48%;
 }
