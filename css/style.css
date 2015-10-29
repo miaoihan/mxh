@@ -93,12 +93,18 @@
     padding-bottom: 5px;
 }
 .content-left-title-p{
-    font-size: 8px;
+    font-size: 12px;
     line-height:20px;
 }
 
 .content-left-preview{
     margin-top: 35px;
+}
+
+.content-left-preview ul,li{
+    margin-top: 12px;
+    font-size: 12px;
+    margin-left: 10px;
 }
 
 #middle-logo{
