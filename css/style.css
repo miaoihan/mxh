@@ -7,12 +7,6 @@
 }
 .test ul{list-style:none;}
 .test li{float:left;padding-left: 5px;font-size: 16px;}
-.test li a{ 
-    text-decoration:none;
-    color: black;
-
-}
-
 
 #head-hr{
     background-color: red;
