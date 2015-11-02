@@ -1,0 +1,189 @@
+/*  通用样式    */
+
+hr{
+    height: 2px;
+}
+
+li a img{
+    height: 100%;
+    width: 100%;
+}
+
+/* 清样式   */   
+.Clear{
+    clear:both;
+}
+
+/* 列表布局   */
+.container{
+   width:94%;
+   margin:0 auto;/*设置整个容器在浏览器中水平居中*/
+}
+
+.navbar{
+    width: 100%;
+    height: 40px;
+}
+
+.nav-path{
+    height: 35px;
+    margin-top: 15px;
+}
+
+.nav-path span{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.path-home img{
+    height: 100%;
+    width: 100%;
+}
+
+.lunbo{
+    width: 100%;
+    height: 160px;
+    margin-bottom: 15px;
+}
+
+.lunbo img{
+    height: 100%;
+    width: 100%;
+}
+
+.content{
+    display: block;
+}
+
+.article-left{
+    float: left;
+    width: 25%;
+    height: 55px;
+}
+
+.article-left img{
+    height: 100%;
+    width: 100%;
+}
+
+.article-right{
+    float: right;
+    width: 70%;
+}
+
+.more{
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.more-botton{
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    background-color: #F4ECEC;
+    border: 0;
+}
+
+.bottom-pic{
+    height: 130px;
+    margin-bottom: 15px;
+}
+
+.bottom-pic img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.gotop{
+    display: block;
+}
+
+.gotop-ele{
+    float: right;
+    
+}
+
+.gotop-ele span{
+    margin: 2px 0 0 2px;
+
+}
+
+.gotop-ele span img{
+   height: 20px;
+   width: 20px;
+   margin-left: 2px;
+}
+
+.gotop-ele p{
+    display: inline;
+   font-size: 18px
+}
+
+/*   详情页布局   */
+.det-title{
+    margin: 20px 0 6px;
+}
+
+.post-meta{
+    margin-bottom: 10px;
+}
+
+.meta-time{
+    margin-right: 20px;
+}
+
+.meta-tag{
+    margin: 0 auto;
+}
+
+.meta-view{
+    float: right;
+    color: red;
+}
+
+#det-top-pic{
+    width: 100%;
+    height: 320px;
+    margin-bottom: 18px;
+}
+
+#det-top-pic img{
+    height: 100%;
+    width: 100%;
+}
+
+.det-content{
+    margin-bottom: 30px;
+}
+
+.content-btn{
+    display: block;
+    height: 60px;
+}
+
+.btn-share{
+    float: left;
+    width: 48%;
+    height: 35px;
+}
+
+.btn-view{
+    float: right;
+    width: 48%;
+    height: 35px
+}
+
+/*#more-news{
+    margin-top: 15px;
+}*/
+
+.bottom-news{
+    margin-bottom: 15px;
+}
+
+.bottom-news li{
+    line-height: 25px;
+}
+
+

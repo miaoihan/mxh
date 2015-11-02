@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/lunbo.css" rel="stylesheet">
+    <title>牧星湖-列表</title>
+
+    <!-- Bootstrap -->
+    <!--  <link href="css/bootstrap.min.css" rel="stylesheet">-->
+    
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="navbar">
+      <span></span>
+    </div>
+    <hr style="background-color:red;">
+    
+
+    <div class="container">
+        
+      
+
+      
+      <div class="more" id="more">
+        <button class="more-botton">查看更多热门新闻</button>
+      </div>
+
+      <div class="bottom-pic">
+        <img src="images/mxh_0005s_0001_图层-10.png"  alt="">
+      </div>
+
+      <div class="gotop">
+        <div class="gotop-ele">
+          <p>回顶部</p><span><img src="images/mxh_0006s_0000_iconfont-jiantou.png" alt=""></span>
+        </div>
+      </div>
+
+    </div>  <!-- container -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="./js/slider.js"></script>
+   
+    <script type="text/javascript">
+      $(function() {
+        var bannerSlider = new Slider($('#banner_tabs'), {
+          time: 5000,
+          delay: 400,
+          event: 'hover',
+          auto: true,
+          mode: 'fade',
+          controller: $('#bannerCtrl'),
+          activeControllerCls: 'active'
+        });
+        $('#banner_tabs .flex-prev').click(function() {
+          bannerSlider.prev()
+        });
+        $('#banner_tabs .flex-next').click(function() {
+          bannerSlider.next()
+        });
+      })
+    </script>
+  </body>
+</html>
